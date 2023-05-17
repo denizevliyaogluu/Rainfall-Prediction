@@ -5,7 +5,6 @@ clc
 
 data = readtable('Yagis.csv');
 
-
 data.removevars(data,'Var16');
 data.removevars(data,'Var17');
 data.removevars(data,'Var18');
